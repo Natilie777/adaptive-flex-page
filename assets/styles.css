@@ -74,7 +74,10 @@ main,
   background-color: rgb(236, 225, 225);
 }
 
-.section-d {
+.section-c {
+  background-color: white;
+padding: 4rem 4rem 1rem 4rem;
+}.section-d {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -92,6 +95,12 @@ main,
 
 .main-footer {
   background-color: black;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
 }
 
 .footer-div,
@@ -179,6 +188,7 @@ footer a {
 
   p {
     font-size: 1.3rem;
+  
   }
 
   a {
@@ -197,7 +207,7 @@ footer a {
   }
 
   .h2-div {
-    font-size: 1.5em;
+    font-size: 1.8em;
   }
 
   .section-A-p {
@@ -232,9 +242,12 @@ footer a {
   h3 {
     font-size: 1.17rem;
   }
-
+.section-C-p{
+  padding: 3rem;
+}
   .section-d {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     text-align: center;
   }
@@ -254,6 +267,7 @@ footer a {
 
   .main-footer {
     display: flex;
+flex-direction: row;
     gap: 2rem;
     justify-content: space-around;
     padding: 2.5rem;
