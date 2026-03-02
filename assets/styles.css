@@ -76,8 +76,10 @@ main,
 
 .section-c {
   background-color: white;
-padding: 4rem 4rem 1rem 4rem;
-}.section-d {
+  padding: 4rem 4rem 1rem 4rem;
+}
+
+.section-d {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -188,16 +190,22 @@ footer a {
 
   p {
     font-size: 1.3rem;
-  
+
   }
 
   a {
     font-size: 1.2rem;
     cursor: pointer;
   }
-  a:hover{
+
+  a:hover {
     background-color: white;
     color: black;
+  }
+
+  .footer-a:hover {
+    color: rgb(50, 156, 243);
+    background-color: inherit;
   }
 
   .section-A-p span {
@@ -247,9 +255,11 @@ footer a {
   h3 {
     font-size: 1.17rem;
   }
-.section-C-p{
-  padding: 3rem;
-}
+
+  .section-C-p {
+    padding: 3rem;
+  }
+
   .section-d {
     display: flex;
     flex-direction: row;
@@ -272,7 +282,7 @@ footer a {
 
   .main-footer {
     display: flex;
-flex-direction: row;
+    flex-direction: row;
     gap: 2rem;
     justify-content: space-around;
     padding: 2.5rem;
